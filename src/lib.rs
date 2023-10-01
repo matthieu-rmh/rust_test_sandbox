@@ -11,4 +11,10 @@ mod tests {
         let result = add(2, 2);
         assert_eq!(result, 4);
     }
+
+    #[test]
+    fn adds_correctly() {
+        let result = add(6, 12);
+        assert_eq!(result, 18);
+    }
 }

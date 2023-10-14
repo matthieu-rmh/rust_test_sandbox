@@ -28,5 +28,6 @@ mod tests {
 
         assert!(outer_rectangle.can_hold(&inner_rectangle), "Outer rectangle : {:?} cannot hold inner rectangle : {:?}", outer_rectangle, inner_rectangle);
 
+
     }
 }

@@ -28,6 +28,7 @@ mod tests {
         let inner_rectangle = Rectangle::new(50, 20);
 
         assert!(outer_rectangle.can_hold(&inner_rectangle), "Outer rectangle : {:?} cannot hold inner rectangle : {:?}", outer_rectangle, inner_rectangle);
+        
     }
     
 }
